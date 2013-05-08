@@ -23,7 +23,7 @@
               <filename>pt-BR.mod_coalawebsociallinks.ini</filename>
               <filename>pt-BR.mod_coalawebsociallinks.sys.ini</filename>
           </files>
-          <!-- Count Plugin language files -->
+          <!-- Plugin language files -->
           <files folder="plugins/system/pt-BR" target="administrator/language/pt-BR">
           </files>
           <!-- Language pack language files -->
