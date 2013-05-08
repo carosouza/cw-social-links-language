@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="2.5.0" method="upgrade">
+      <name>CoalaWeb Social Links pt-BR</name>
+      <version>0.0.9</version>
+      <creationDate>April 2013</creationDate>
+      <author>Carosouza</author>
+      <authorEmail>carosouza63@hotmail.com</authorEmail>
+      <authorUrl>coalaweb.com</authorUrl>
+      <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
+      <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <description>
+        <![CDATA[
+            <h1>CoalaWeb Social Links pt-BR</h1>
+            <p>This is the pt-BR language pack for the CoalaWeb Social Links extension it includes the language files for all of the associated parts of the system.</p>
+        ]]>
+    </description>
+      <fileset>
+          <!-- Admin component language folder -->
+          <files folder="admin/pt-BR" target="administrator/language/pt-BR">
+          </files>
+          <!-- Module language files -->
+          <files folder="modules/pt-BR" target="language/pt-BR">
+              <filename>pt-BR.mod_coalawebsociallinks.ini</filename>
+              <filename>pt-BR.mod_coalawebsociallinks.sys.ini</filename>
+          </files>
+          <!-- Count Plugin language files -->
+          <files folder="plugins/system/pt-BR" target="administrator/language/pt-BR">
+          </files>
+          <!-- Language pack language files -->
+          <files folder="language/pt-BR" target="language/pt-BR">
+              <filename>pt-BR.files_cwsocial_langpkg_ptbr.sys.ini</filename>
+          </files>
+      </fileset>
+  </extension>
