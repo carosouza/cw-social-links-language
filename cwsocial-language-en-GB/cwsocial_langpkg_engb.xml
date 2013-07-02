@@ -1,34 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="2.5.0" method="upgrade">
-      <name>CoalaWeb Social Links en-GB</name>
-      <version>0.0.9</version>
-      <creationDate>May 2013</creationDate>
-      <author>Steven Palmer</author>
-      <authorEmail>support@coalaweb.com</authorEmail>
-      <authorUrl>coalaweb.com</authorUrl>
-      <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
-      <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <name>CoalaWeb Social Links en-GB</name>
+    <version>0.1.0</version>
+    <creationDate>June 2013</creationDate>
+    <author>Steven Palmer</author>
+    <authorEmail>support@coalaweb.com</authorEmail>
+    <authorUrl>coalaweb.com</authorUrl>
+    <copyright>Copyright (c) 2013 Steven Palmer All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
     <description>
         <![CDATA[
             <h1>CoalaWeb Social Links en-GB</h1>
             <p>This is the en-GB language pack for the CoalaWeb Social Links extension it includes the language files for all of the associated parts of the system.</p>
         ]]>
     </description>
-      <fileset>
-          <!-- Admin component language folder -->
-          <files folder="admin/en-GB" target="administrator/language/en-GB">
-          </files>
-          <!-- Module language files -->
-          <files folder="modules/en-GB" target="language/en-GB">
-              <filename>en-GB.mod_coalawebsociallinks.ini</filename>
-              <filename>en-GB.mod_coalawebsociallinks.sys.ini</filename>
-          </files>
-          <!-- Count Plugin language files -->
-          <files folder="plugins/system/en-GB" target="administrator/language/en-GB">
-          </files>
-          <!-- Language pack language files -->
-          <files folder="language/en-GB" target="language/en-GB">
-              <filename>en-GB.files_cwsocial_langpkg_engb.sys.ini</filename>
-          </files>
-      </fileset>
-  </extension>
+    <fileset>
+        <!-- Admin component language folder -->
+        <files folder="admin/en-GB" target="administrator/language/en-GB">
+            <filename>en-GB.com_coalawebsociallinks.ini</filename>
+            <filename>en-GB.com_coalawebsociallinks.sys.ini</filename>
+        </files>
+        <!-- Admin Module language files -->
+        <files folder="modules/admin/en-GB" target="language/en-GB">
+            <filename>en-GB.mod_cwquickicons.ini</filename>
+            <filename>en-GB.mod_cwquickicons.sys.ini</filename>
+        </files>
+        <!-- Site Module language files -->
+        <files folder="modules/site/en-GB" target="language/en-GB">
+            <filename>en-GB.mod_coalawebsociallinks.ini</filename>
+            <filename>en-GB.mod_coalawebsociallinks.sys.ini</filename>
+        </files>
+        <!-- System Plugin language files -->
+        <files folder="plugins/system/en-GB" target="administrator/language/en-GB">
+            <filename>en-GB.plg_system_cwzooelements.ini</filename>
+            <filename>en-GB.plg_system_cwzooelements.sys.ini</filename>
+        </files>
+        <!-- Content Plugin language files -->
+        <files folder="plugins/content/en-GB" target="administrator/language/en-GB">
+            <filename>en-GB.plg_content_cwsociallikes.ini</filename>
+            <filename>en-GB.plg_content_cwsociallikes.sys.ini</filename>
+        </files>
+        <!-- Quickicon Plugin language files -->
+        <files folder="plugins/quickicon/en-GB" target="administrator/language/en-GB">
+            <filename>en-GB.plg_quickicon_cwslquickicon.ini</filename>
+            <filename>en-GB.plg_quickicon_cwslquickicon.sys.ini</filename>
+        </files>
+        <!-- Language pack language files -->
+        <files folder="language/en-GB" target="language/en-GB">
+            <filename>en-GB.files_cwsocial_langpkg_engb.sys.ini</filename>
+        </files>
+    </fileset>
+</extension>
